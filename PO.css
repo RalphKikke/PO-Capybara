@@ -74,12 +74,13 @@ h2 {
 
 
 .page-nav {
- 
+ position: absolute;
 }
 
   .page-nav ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 0px;
+    margin-left: -180px  
   }
 
     .page-nav ul li {
